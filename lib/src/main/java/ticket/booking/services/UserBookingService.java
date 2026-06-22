@@ -9,6 +9,7 @@ import java.util.List;
 
 public class UserBookingService {
     private User user;
+    private String mainBranch;
     private List<User> userList;
     private ObjectMapper objectMapper = new ObjectMapper();
     private static final String USER_PATH = "../localdb/users.json";
