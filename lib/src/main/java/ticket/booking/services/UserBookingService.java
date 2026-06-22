@@ -9,6 +9,7 @@ import java.util.List;
 
 public class UserBookingService {
     private User user;
+    private String jascharanBranch;
     private String mainBranch;
     private List<User> userList;
     private ObjectMapper objectMapper = new ObjectMapper();
